@@ -1,4 +1,4 @@
-def patron():
+def main():
    print("Keep it logically awesome.")
 
   f = open("quotes.txt")
@@ -7,4 +7,4 @@ def patron():
 
   print(quotes[3])
 if __name__== "__main__":
-  patron()
+  main()
